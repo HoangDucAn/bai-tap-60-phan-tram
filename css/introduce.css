@@ -283,10 +283,10 @@ p{
     justify-content: space-between;
 }
 .my-service-item{
-    background-color: white;
+    background-color: rgb(229, 85, 85);
     box-shadow: 0 0 48px #04060414;
     border-radius: 8px;
-    width: 24%;
+    width: 30%;
     box-sizing: border-box;
     padding: 20px;
 }
@@ -303,7 +303,7 @@ p{
 .my-service-item p{
     font-size: 13px;
     line-height: 14px;
-    color: #989898;
+    color: black;
 }
 .skill-container{
     padding: 20px;

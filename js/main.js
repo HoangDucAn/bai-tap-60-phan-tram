@@ -1,10 +1,11 @@
 var img=[];
 var curimg=0;
 function Load_image(){
-    for(i=1;i<5;i++){
+    for(i=1;i<4;i++){
         img[i]=new Image();
         img[i].src="/img/anava"+i+".jpg";
     }
+    
 }
 function next(){
     if(curimg<img.length-1){
@@ -85,3 +86,8 @@ const daySelect = document.querySelector("#op_ngay")
                 size=sizeAr[i].value;
             }
         }
+
+function show() {
+    alert('hihi');
+}
+
